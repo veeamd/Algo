@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A267FB326B8F69C0072A92E /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A267FB226B8F69C0072A92E /* Stack.swift */; };
+		3A267FB526B8F82F0072A92E /* StackWithMinValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A267FB426B8F82F0072A92E /* StackWithMinValue.swift */; };
+		3A267FB726B8FBEE0072A92E /* TestStackWithMin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A267FB626B8FBEE0072A92E /* TestStackWithMin.swift */; };
+		3A267FB926BA4E3D0072A92E /* NodeReachableInDigraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A267FB826BA4E3C0072A92E /* NodeReachableInDigraph.swift */; };
+		3A66EBF726B7369F0099AFC1 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A66EBF626B7369F0099AFC1 /* Heap.swift */; };
+		3A66EBF926B74DC20099AFC1 /* TestHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A66EBF826B74DC20099AFC1 /* TestHeap.swift */; };
+		3A66EBFB26B796890099AFC1 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A66EBFA26B796890099AFC1 /* ListNode.swift */; };
+		3A66EBFD26B796990099AFC1 /* ListNode2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A66EBFC26B796990099AFC1 /* ListNode2.swift */; };
+		3A66EBFF26B7984B0099AFC1 /* PartitionLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A66EBFE26B7984B0099AFC1 /* PartitionLinkedList.swift */; };
+		3A66EC0126B79F440099AFC1 /* TestListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A66EC0026B79F440099AFC1 /* TestListNode.swift */; };
+		3A66EC0326B7A2F10099AFC1 /* TestListNode2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A66EC0226B7A2F10099AFC1 /* TestListNode2.swift */; };
+		3A66EC0526B7A69E0099AFC1 /* TestPartitionLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A66EC0426B7A69E0099AFC1 /* TestPartitionLinkedList.swift */; };
+		3A66EC0726B7B13C0099AFC1 /* LinkedListAddition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A66EC0626B7B13C0099AFC1 /* LinkedListAddition.swift */; };
+		3A66EC0926B7B4500099AFC1 /* TestLinkedListAddition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A66EC0826B7B4500099AFC1 /* TestLinkedListAddition.swift */; };
+		3A7E419B26BC8A8000F50CDB /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E419A26BC8A8000F50CDB /* TicTacToe.swift */; };
 		3AF4667D26AFA5BD0021EE00 /* AlgoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF4667C26AFA5BD0021EE00 /* AlgoApp.swift */; };
 		3AF4667F26AFA5BD0021EE00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF4667E26AFA5BD0021EE00 /* ContentView.swift */; };
 		3AF4668126AFA5C00021EE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF4668026AFA5C00021EE00 /* Assets.xcassets */; };
 		3AF4668426AFA5C00021EE00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF4668326AFA5C00021EE00 /* Preview Assets.xcassets */; };
-		3AF4668F26AFA5C00021EE00 /* AlgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF4668E26AFA5C00021EE00 /* AlgoTests.swift */; };
-		3AF4669A26AFA5C10021EE00 /* AlgoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF4669926AFA5C10021EE00 /* AlgoUITests.swift */; };
+		3AF466AB26AFA6780021EE00 /* IslandsOf1s.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF466AA26AFA6780021EE00 /* IslandsOf1s.swift */; };
+		3AF466AD26AFA68D0021EE00 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF466AC26AFA68D0021EE00 /* Graph.swift */; };
+		3AF466AF26AFA6C10021EE00 /* AjacencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF466AE26AFA6C10021EE00 /* AjacencyList.swift */; };
+		3AF466B126AFA6D20021EE00 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF466B026AFA6D20021EE00 /* PriorityQueue.swift */; };
+		3AFFD73926B103D0006A3A4F /* TopologicalSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFFD73826B103D0006A3A4F /* TopologicalSorting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,16 +41,24 @@
 			remoteGlobalIDString = 3AF4667826AFA5BD0021EE00;
 			remoteInfo = Algo;
 		};
-		3AF4669626AFA5C10021EE00 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3AF4667126AFA5BD0021EE00 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3AF4667826AFA5BD0021EE00;
-			remoteInfo = Algo;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A267FB226B8F69C0072A92E /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		3A267FB426B8F82F0072A92E /* StackWithMinValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackWithMinValue.swift; sourceTree = "<group>"; };
+		3A267FB626B8FBEE0072A92E /* TestStackWithMin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStackWithMin.swift; sourceTree = "<group>"; };
+		3A267FB826BA4E3C0072A92E /* NodeReachableInDigraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeReachableInDigraph.swift; sourceTree = "<group>"; };
+		3A66EBF626B7369F0099AFC1 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		3A66EBF826B74DC20099AFC1 /* TestHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHeap.swift; sourceTree = "<group>"; };
+		3A66EBFA26B796890099AFC1 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		3A66EBFC26B796990099AFC1 /* ListNode2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode2.swift; sourceTree = "<group>"; };
+		3A66EBFE26B7984B0099AFC1 /* PartitionLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartitionLinkedList.swift; sourceTree = "<group>"; };
+		3A66EC0026B79F440099AFC1 /* TestListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListNode.swift; sourceTree = "<group>"; };
+		3A66EC0226B7A2F10099AFC1 /* TestListNode2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListNode2.swift; sourceTree = "<group>"; };
+		3A66EC0426B7A69E0099AFC1 /* TestPartitionLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPartitionLinkedList.swift; sourceTree = "<group>"; };
+		3A66EC0626B7B13C0099AFC1 /* LinkedListAddition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListAddition.swift; sourceTree = "<group>"; };
+		3A66EC0826B7B4500099AFC1 /* TestLinkedListAddition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLinkedListAddition.swift; sourceTree = "<group>"; };
+		3A7E419A26BC8A8000F50CDB /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
 		3AF4667926AFA5BD0021EE00 /* Algo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF4667C26AFA5BD0021EE00 /* AlgoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoApp.swift; sourceTree = "<group>"; };
 		3AF4667E26AFA5BD0021EE00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,11 +66,12 @@
 		3AF4668326AFA5C00021EE00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3AF4668526AFA5C00021EE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AF4668A26AFA5C00021EE00 /* AlgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AF4668E26AFA5C00021EE00 /* AlgoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoTests.swift; sourceTree = "<group>"; };
 		3AF4669026AFA5C00021EE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3AF4669526AFA5C10021EE00 /* AlgoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AF4669926AFA5C10021EE00 /* AlgoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoUITests.swift; sourceTree = "<group>"; };
-		3AF4669B26AFA5C10021EE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF466AA26AFA6780021EE00 /* IslandsOf1s.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandsOf1s.swift; sourceTree = "<group>"; };
+		3AF466AC26AFA68D0021EE00 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		3AF466AE26AFA6C10021EE00 /* AjacencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjacencyList.swift; sourceTree = "<group>"; };
+		3AF466B026AFA6D20021EE00 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		3AFFD73826B103D0006A3A4F /* TopologicalSorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopologicalSorting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +89,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AF4669226AFA5C10021EE00 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +97,6 @@
 			children = (
 				3AF4667B26AFA5BD0021EE00 /* Algo */,
 				3AF4668D26AFA5C00021EE00 /* AlgoTests */,
-				3AF4669826AFA5C10021EE00 /* AlgoUITests */,
 				3AF4667A26AFA5BD0021EE00 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +106,6 @@
 			children = (
 				3AF4667926AFA5BD0021EE00 /* Algo.app */,
 				3AF4668A26AFA5C00021EE00 /* AlgoTests.xctest */,
-				3AF4669526AFA5C10021EE00 /* AlgoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +115,9 @@
 			children = (
 				3AF4667C26AFA5BD0021EE00 /* AlgoApp.swift */,
 				3AF4667E26AFA5BD0021EE00 /* ContentView.swift */,
+				3AF466A926AFA6560021EE00 /* Problems */,
+				3AF466A726AFA6190021EE00 /* DataStructure */,
+				3AF466A826AFA6350021EE00 /* Algorithm */,
 				3AF4668026AFA5C00021EE00 /* Assets.xcassets */,
 				3AF4668526AFA5C00021EE00 /* Info.plist */,
 				3AF4668226AFA5C00021EE00 /* Preview Content */,
@@ -115,19 +136,50 @@
 		3AF4668D26AFA5C00021EE00 /* AlgoTests */ = {
 			isa = PBXGroup;
 			children = (
-				3AF4668E26AFA5C00021EE00 /* AlgoTests.swift */,
+				3A66EBF826B74DC20099AFC1 /* TestHeap.swift */,
+				3A66EC0026B79F440099AFC1 /* TestListNode.swift */,
+				3A66EC0226B7A2F10099AFC1 /* TestListNode2.swift */,
+				3A66EC0426B7A69E0099AFC1 /* TestPartitionLinkedList.swift */,
+				3A66EC0826B7B4500099AFC1 /* TestLinkedListAddition.swift */,
+				3A267FB626B8FBEE0072A92E /* TestStackWithMin.swift */,
 				3AF4669026AFA5C00021EE00 /* Info.plist */,
 			);
 			path = AlgoTests;
 			sourceTree = "<group>";
 		};
-		3AF4669826AFA5C10021EE00 /* AlgoUITests */ = {
+		3AF466A726AFA6190021EE00 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
-				3AF4669926AFA5C10021EE00 /* AlgoUITests.swift */,
-				3AF4669B26AFA5C10021EE00 /* Info.plist */,
+				3AF466AC26AFA68D0021EE00 /* Graph.swift */,
+				3AF466AE26AFA6C10021EE00 /* AjacencyList.swift */,
+				3AF466B026AFA6D20021EE00 /* PriorityQueue.swift */,
+				3A66EBF626B7369F0099AFC1 /* Heap.swift */,
+				3A66EBFA26B796890099AFC1 /* ListNode.swift */,
+				3A66EBFC26B796990099AFC1 /* ListNode2.swift */,
+				3A267FB226B8F69C0072A92E /* Stack.swift */,
+				3A267FB426B8F82F0072A92E /* StackWithMinValue.swift */,
 			);
-			path = AlgoUITests;
+			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		3AF466A826AFA6350021EE00 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				3AFFD73826B103D0006A3A4F /* TopologicalSorting.swift */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		3AF466A926AFA6560021EE00 /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				3AF466AA26AFA6780021EE00 /* IslandsOf1s.swift */,
+				3A66EBFE26B7984B0099AFC1 /* PartitionLinkedList.swift */,
+				3A66EC0626B7B13C0099AFC1 /* LinkedListAddition.swift */,
+				3A267FB826BA4E3C0072A92E /* NodeReachableInDigraph.swift */,
+				3A7E419A26BC8A8000F50CDB /* TicTacToe.swift */,
+			);
+			path = Problems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,24 +220,6 @@
 			productReference = 3AF4668A26AFA5C00021EE00 /* AlgoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3AF4669426AFA5C10021EE00 /* AlgoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3AF466A426AFA5C10021EE00 /* Build configuration list for PBXNativeTarget "AlgoUITests" */;
-			buildPhases = (
-				3AF4669126AFA5C10021EE00 /* Sources */,
-				3AF4669226AFA5C10021EE00 /* Frameworks */,
-				3AF4669326AFA5C10021EE00 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3AF4669726AFA5C10021EE00 /* PBXTargetDependency */,
-			);
-			name = AlgoUITests;
-			productName = AlgoUITests;
-			productReference = 3AF4669526AFA5C10021EE00 /* AlgoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,10 +233,6 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					3AF4668926AFA5C00021EE00 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 3AF4667826AFA5BD0021EE00;
-					};
-					3AF4669426AFA5C10021EE00 = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = 3AF4667826AFA5BD0021EE00;
 					};
@@ -223,7 +253,6 @@
 			targets = (
 				3AF4667826AFA5BD0021EE00 /* Algo */,
 				3AF4668926AFA5C00021EE00 /* AlgoTests */,
-				3AF4669426AFA5C10021EE00 /* AlgoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,13 +274,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AF4669326AFA5C10021EE00 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,8 +281,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF466AD26AFA68D0021EE00 /* Graph.swift in Sources */,
+				3A267FB326B8F69C0072A92E /* Stack.swift in Sources */,
 				3AF4667F26AFA5BD0021EE00 /* ContentView.swift in Sources */,
+				3A66EBFD26B796990099AFC1 /* ListNode2.swift in Sources */,
+				3A66EBFB26B796890099AFC1 /* ListNode.swift in Sources */,
+				3A66EC0726B7B13C0099AFC1 /* LinkedListAddition.swift in Sources */,
+				3AF466AF26AFA6C10021EE00 /* AjacencyList.swift in Sources */,
+				3A267FB926BA4E3D0072A92E /* NodeReachableInDigraph.swift in Sources */,
+				3A66EBF726B7369F0099AFC1 /* Heap.swift in Sources */,
+				3A66EBFF26B7984B0099AFC1 /* PartitionLinkedList.swift in Sources */,
+				3A7E419B26BC8A8000F50CDB /* TicTacToe.swift in Sources */,
+				3A267FB526B8F82F0072A92E /* StackWithMinValue.swift in Sources */,
+				3AF466AB26AFA6780021EE00 /* IslandsOf1s.swift in Sources */,
 				3AF4667D26AFA5BD0021EE00 /* AlgoApp.swift in Sources */,
+				3AFFD73926B103D0006A3A4F /* TopologicalSorting.swift in Sources */,
+				3AF466B126AFA6D20021EE00 /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +304,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AF4668F26AFA5C00021EE00 /* AlgoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3AF4669126AFA5C10021EE00 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3AF4669A26AFA5C10021EE00 /* AlgoUITests.swift in Sources */,
+				3A66EC0926B7B4500099AFC1 /* TestLinkedListAddition.swift in Sources */,
+				3A267FB726B8FBEE0072A92E /* TestStackWithMin.swift in Sources */,
+				3A66EC0126B79F440099AFC1 /* TestListNode.swift in Sources */,
+				3A66EC0526B7A69E0099AFC1 /* TestPartitionLinkedList.swift in Sources */,
+				3A66EBF926B74DC20099AFC1 /* TestHeap.swift in Sources */,
+				3A66EC0326B7A2F10099AFC1 /* TestListNode2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +320,6 @@
 			isa = PBXTargetDependency;
 			target = 3AF4667826AFA5BD0021EE00 /* Algo */;
 			targetProxy = 3AF4668B26AFA5C00021EE00 /* PBXContainerItemProxy */;
-		};
-		3AF4669726AFA5C10021EE00 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3AF4667826AFA5BD0021EE00 /* Algo */;
-			targetProxy = 3AF4669626AFA5C10021EE00 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -496,44 +524,6 @@
 			};
 			name = Release;
 		};
-		3AF466A526AFA5C10021EE00 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AlgoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wz.AlgoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Algo;
-			};
-			name = Debug;
-		};
-		3AF466A626AFA5C10021EE00 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AlgoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wz.AlgoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Algo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -560,15 +550,6 @@
 			buildConfigurations = (
 				3AF466A226AFA5C10021EE00 /* Debug */,
 				3AF466A326AFA5C10021EE00 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3AF466A426AFA5C10021EE00 /* Build configuration list for PBXNativeTarget "AlgoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3AF466A526AFA5C10021EE00 /* Debug */,
-				3AF466A626AFA5C10021EE00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
