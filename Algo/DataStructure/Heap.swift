@@ -1,20 +1,26 @@
 import Foundation
 
-/// Max Heap
-struct Heap: ExpressibleByArrayLiteral {
-    typealias ArrayLiteralElement = Int
+struct Heap {
 
-    init() {
+    enum Variant {
+        case max
+        case min
+    }
+
+    init(variant: Variant) {
+        self.variant = variant
+        switch variant {
+        case .max:
+            compare = { left, right in left > right }
+        case .min:
+            compare = { left, right in left < right }
+        }
         storage = []
     }
 
-    init(array: [Int]) {
+    init(array: [Int], variant: Variant) {
+        self.init(variant: variant)
         storage = array
-        heapify()
-    }
-
-    init(arrayLiteral elements: Self.ArrayLiteralElement...) {
-        storage = elements
         heapify()
     }
 
@@ -59,6 +65,8 @@ struct Heap: ExpressibleByArrayLiteral {
     // MARK: - Private
 
     private var storage: [Int]
+    private let variant: Variant
+    private let compare: (Int, Int) -> Bool
 
     private mutating func heapify() {
         guard storage.count > 1 else { return }
@@ -101,16 +109,14 @@ struct Heap: ExpressibleByArrayLiteral {
         } else if value2 == nil {
             return true
         } else {
-            return value1! > value2!
+            return compare(value1!, value2!)
         }
     }
 
     private mutating func swim(_ index: Int) {
         guard index > 0 else { return }
         let parent = parent(of: index)
-        if storage[index] <= storage[parent] {
-            return
-        } else {
+        if compare(storage[index], storage[parent]) {
             storage.swapAt(index, parent)
             swim(parent)
         }
@@ -129,4 +135,86 @@ struct Heap: ExpressibleByArrayLiteral {
         storage.swapAt(index, nextIndex)
         sink(nextIndex)
     }
+}
+
+struct MaxHeap: ExpressibleByArrayLiteral {
+
+    typealias ArrayLiteralElement = Int
+
+    init() {
+        storage = Heap(variant: .max)
+    }
+
+    init(array: [Int]) {
+        storage = Heap(array: array, variant: .max)
+    }
+
+    init(arrayLiteral elements: Int...) {
+        self.init(array: elements)
+    }
+
+    var count: Int {
+        storage.count
+    }
+
+    func peek() -> Int? {
+        storage.peek()
+    }
+
+    mutating func pop() -> Int {
+        storage.pop()
+    }
+
+    /// replace the root with `value`
+    @discardableResult
+    mutating func replace(_ value: Int) -> Int {
+        storage.replace(value)
+    }
+
+    func toArray() -> [Int] {
+        storage.toArray()
+    }
+
+    private var storage: Heap
+}
+
+struct MinHeap: ExpressibleByArrayLiteral {
+
+    typealias ArrayLiteralElement = Int
+
+    init() {
+        storage = Heap(variant: .min)
+    }
+
+    init(array: [Int]) {
+        storage = Heap(array: array, variant: .min)
+    }
+
+    init(arrayLiteral elements: Int...) {
+        self.init(array: elements)
+    }
+
+    var count: Int {
+        storage.count
+    }
+
+    func peek() -> Int? {
+        storage.peek()
+    }
+
+    mutating func pop() -> Int {
+        storage.pop()
+    }
+
+    /// replace the root with `value`
+    @discardableResult
+    mutating func replace(_ value: Int) -> Int {
+        storage.replace(value)
+    }
+
+    func toArray() -> [Int] {
+        storage.toArray()
+    }
+
+    private var storage: Heap
 }
