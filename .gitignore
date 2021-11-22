@@ -1,0 +1,43 @@
+xcuserdata/
+target/
+.DS_Store
+Breakpoints.xcbkptlist
+.build/
+build/
+.idea/
+*.orig
+*.swp
+*.tmp
+*.xccheckout
+*.xcscmblueprint
+fastlane/report.xml
+
+# Pods
+Pods/
+
+.env
+fastlane/test_output
+*.zip
+*.ipa
+*.mobileprovision
+.swiftlint.yml
+# sed editing backup file
+*.sed
+
+# npm
+node_modules
+
+# ctags
+tags
+.ctags
+
+# Generated Files
+MockingbirdCache
+MockingbirdMocks
+API.swift
+
+# JS Graphql plugin for AppCode
+.graphqlconfig
+
+# cached folder for Swift Packages
+SourcePackages
