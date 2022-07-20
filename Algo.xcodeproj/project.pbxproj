@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392FED612887841200040AEA /* MaxDistanceToClosetPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FED582887841200040AEA /* MaxDistanceToClosetPerson.swift */; };
+		392FED622887841200040AEA /* PartialUnsorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FED592887841200040AEA /* PartialUnsorted.swift */; };
+		392FED632887841200040AEA /* SameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FED5A2887841200040AEA /* SameTree.swift */; };
+		392FED642887841200040AEA /* RotateNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FED5B2887841200040AEA /* RotateNumbers.swift */; };
+		392FED652887841200040AEA /* BinaryTreeWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FED5C2887841200040AEA /* BinaryTreeWidth.swift */; };
+		392FED662887841200040AEA /* DesignHashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FED5D2887841200040AEA /* DesignHashMap.swift */; };
+		392FED672887841200040AEA /* RowColumnContainsAllNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FED5E2887841200040AEA /* RowColumnContainsAllNumbers.swift */; };
+		392FED682887841200040AEA /* LicenseKeyFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FED5F2887841200040AEA /* LicenseKeyFormatting.swift */; };
+		392FED692887841200040AEA /* FullyJustify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FED602887841200040AEA /* FullyJustify.swift */; };
+		392FED702887842200040AEA /* TestDesignHashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FED6A2887842200040AEA /* TestDesignHashMap.swift */; };
+		392FED712887842200040AEA /* TestLicenseKeyFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FED6B2887842200040AEA /* TestLicenseKeyFormatting.swift */; };
+		392FED722887842200040AEA /* TestFullyJustify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FED6C2887842200040AEA /* TestFullyJustify.swift */; };
+		392FED732887842200040AEA /* TestTreeNodeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FED6D2887842200040AEA /* TestTreeNodeIterator.swift */; };
+		392FED742887842200040AEA /* TestRotateNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FED6E2887842200040AEA /* TestRotateNumbers.swift */; };
+		392FED752887842200040AEA /* TestMaxDistanceToClosestPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392FED6F2887842200040AEA /* TestMaxDistanceToClosestPerson.swift */; };
 		3A0D579626FECA7D00FAB9DB /* SpecialStringAgain .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0D579526FECA7D00FAB9DB /* SpecialStringAgain .swift */; };
 		3A0D579826FEDBE400FAB9DB /* TestSpecialStringAgain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0D579726FEDBE400FAB9DB /* TestSpecialStringAgain.swift */; };
 		3A267FB326B8F69C0072A92E /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A267FB226B8F69C0072A92E /* Stack.swift */; };
@@ -59,6 +74,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		392FED582887841200040AEA /* MaxDistanceToClosetPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxDistanceToClosetPerson.swift; sourceTree = "<group>"; };
+		392FED592887841200040AEA /* PartialUnsorted.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartialUnsorted.swift; sourceTree = "<group>"; };
+		392FED5A2887841200040AEA /* SameTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SameTree.swift; sourceTree = "<group>"; };
+		392FED5B2887841200040AEA /* RotateNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotateNumbers.swift; sourceTree = "<group>"; };
+		392FED5C2887841200040AEA /* BinaryTreeWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTreeWidth.swift; sourceTree = "<group>"; };
+		392FED5D2887841200040AEA /* DesignHashMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignHashMap.swift; sourceTree = "<group>"; };
+		392FED5E2887841200040AEA /* RowColumnContainsAllNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowColumnContainsAllNumbers.swift; sourceTree = "<group>"; };
+		392FED5F2887841200040AEA /* LicenseKeyFormatting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseKeyFormatting.swift; sourceTree = "<group>"; };
+		392FED602887841200040AEA /* FullyJustify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullyJustify.swift; sourceTree = "<group>"; };
+		392FED6A2887842200040AEA /* TestDesignHashMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDesignHashMap.swift; sourceTree = "<group>"; };
+		392FED6B2887842200040AEA /* TestLicenseKeyFormatting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestLicenseKeyFormatting.swift; sourceTree = "<group>"; };
+		392FED6C2887842200040AEA /* TestFullyJustify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFullyJustify.swift; sourceTree = "<group>"; };
+		392FED6D2887842200040AEA /* TestTreeNodeIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTreeNodeIterator.swift; sourceTree = "<group>"; };
+		392FED6E2887842200040AEA /* TestRotateNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRotateNumbers.swift; sourceTree = "<group>"; };
+		392FED6F2887842200040AEA /* TestMaxDistanceToClosestPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestMaxDistanceToClosestPerson.swift; sourceTree = "<group>"; };
 		3A0D579526FECA7D00FAB9DB /* SpecialStringAgain .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpecialStringAgain .swift"; sourceTree = "<group>"; };
 		3A0D579726FEDBE400FAB9DB /* TestSpecialStringAgain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSpecialStringAgain.swift; sourceTree = "<group>"; };
 		3A267FB226B8F69C0072A92E /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -166,6 +196,12 @@
 		3AF4668D26AFA5C00021EE00 /* AlgoTests */ = {
 			isa = PBXGroup;
 			children = (
+				392FED6A2887842200040AEA /* TestDesignHashMap.swift */,
+				392FED6C2887842200040AEA /* TestFullyJustify.swift */,
+				392FED6B2887842200040AEA /* TestLicenseKeyFormatting.swift */,
+				392FED6F2887842200040AEA /* TestMaxDistanceToClosestPerson.swift */,
+				392FED6E2887842200040AEA /* TestRotateNumbers.swift */,
+				392FED6D2887842200040AEA /* TestTreeNodeIterator.swift */,
 				3AF4669026AFA5C00021EE00 /* Info.plist */,
 				3A66EBF826B74DC20099AFC1 /* TestMaxHeap.swift */,
 				3A40239526CA1F67000ECFF5 /* TestMinHeap.swift */,
@@ -211,6 +247,15 @@
 		3AF466A926AFA6560021EE00 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				392FED5C2887841200040AEA /* BinaryTreeWidth.swift */,
+				392FED5D2887841200040AEA /* DesignHashMap.swift */,
+				392FED602887841200040AEA /* FullyJustify.swift */,
+				392FED5F2887841200040AEA /* LicenseKeyFormatting.swift */,
+				392FED582887841200040AEA /* MaxDistanceToClosetPerson.swift */,
+				392FED592887841200040AEA /* PartialUnsorted.swift */,
+				392FED5B2887841200040AEA /* RotateNumbers.swift */,
+				392FED5E2887841200040AEA /* RowColumnContainsAllNumbers.swift */,
+				392FED5A2887841200040AEA /* SameTree.swift */,
 				3AF466AA26AFA6780021EE00 /* IslandsOf1s.swift */,
 				3A66EBFE26B7984B0099AFC1 /* PartitionLinkedList.swift */,
 				3A66EC0626B7B13C0099AFC1 /* LinkedListAddition.swift */,
@@ -327,12 +372,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AF466AD26AFA68D0021EE00 /* Graph.swift in Sources */,
+				392FED622887841200040AEA /* PartialUnsorted.swift in Sources */,
 				3A267FB326B8F69C0072A92E /* Stack.swift in Sources */,
 				3AF4667F26AFA5BD0021EE00 /* ContentView.swift in Sources */,
 				3A66EBFD26B796990099AFC1 /* ListNode2.swift in Sources */,
 				3AEF1B6326DDDF97006D9AAB /* MinimumWorkSessions.swift in Sources */,
 				3A66EBFB26B796890099AFC1 /* ListNode.swift in Sources */,
+				392FED692887841200040AEA /* FullyJustify.swift in Sources */,
 				3A66EC0726B7B13C0099AFC1 /* LinkedListAddition.swift in Sources */,
+				392FED642887841200040AEA /* RotateNumbers.swift in Sources */,
+				392FED662887841200040AEA /* DesignHashMap.swift in Sources */,
+				392FED652887841200040AEA /* BinaryTreeWidth.swift in Sources */,
+				392FED612887841200040AEA /* MaxDistanceToClosetPerson.swift in Sources */,
+				392FED672887841200040AEA /* RowColumnContainsAllNumbers.swift in Sources */,
 				3A927EEC26F98B1500015CAB /* ValidString.swift in Sources */,
 				3AF466AF26AFA6C10021EE00 /* AjacencyList.swift in Sources */,
 				3A267FB926BA4E3D0072A92E /* NodeReachableInDigraph.swift in Sources */,
@@ -343,12 +395,14 @@
 				3A7E419B26BC8A8000F50CDB /* TicTacToe.swift in Sources */,
 				3A927EE826F6F67400015CAB /* MinimumBribes.swift in Sources */,
 				3A267FB526B8F82F0072A92E /* StackWithMinValue.swift in Sources */,
+				392FED632887841200040AEA /* SameTree.swift in Sources */,
 				3A2DA350270903CB001E17C9 /* ExtraLongFactorial.swift in Sources */,
 				3AF466AB26AFA6780021EE00 /* IslandsOf1s.swift in Sources */,
 				3AF4667D26AFA5BD0021EE00 /* AlgoApp.swift in Sources */,
 				3AFFD73926B103D0006A3A4F /* TopologicalSorting.swift in Sources */,
 				3A0D579626FECA7D00FAB9DB /* SpecialStringAgain .swift in Sources */,
 				3AF466B126AFA6D20021EE00 /* PriorityQueue.swift in Sources */,
+				392FED682887841200040AEA /* LicenseKeyFormatting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,18 +410,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392FED712887842200040AEA /* TestLicenseKeyFormatting.swift in Sources */,
 				3A66EC0926B7B4500099AFC1 /* TestLinkedListAddition.swift in Sources */,
 				3A40239826CA2282000ECFF5 /* TestpartialUnsorted.swift in Sources */,
 				3AEF1B6526DDE311006D9AAB /* TestMinimumWorkSessions.swift in Sources */,
 				3A267FB726B8FBEE0072A92E /* TestStackWithMin.swift in Sources */,
+				392FED702887842200040AEA /* TestDesignHashMap.swift in Sources */,
 				3A7E419D26BCCF3600F50CDB /* TestNodeReachableInDigraph.swift in Sources */,
 				3A927EEA26F6F6C400015CAB /* TestMunimumBribes.swift in Sources */,
+				392FED722887842200040AEA /* TestFullyJustify.swift in Sources */,
+				392FED742887842200040AEA /* TestRotateNumbers.swift in Sources */,
 				3A66EC0126B79F440099AFC1 /* TestListNode.swift in Sources */,
+				392FED752887842200040AEA /* TestMaxDistanceToClosestPerson.swift in Sources */,
 				3A0D579826FEDBE400FAB9DB /* TestSpecialStringAgain.swift in Sources */,
 				3A66EC0526B7A69E0099AFC1 /* TestPartitionLinkedList.swift in Sources */,
 				3A6B6D78270560B7002BA2D0 /* TestSolveFormulas.swift in Sources */,
 				3A2DA352270903FC001E17C9 /* TestExtraLongFactorial.swift in Sources */,
 				3A66EBF926B74DC20099AFC1 /* TestMaxHeap.swift in Sources */,
+				392FED732887842200040AEA /* TestTreeNodeIterator.swift in Sources */,
 				3A40239626CA1F67000ECFF5 /* TestMinHeap.swift in Sources */,
 				3A66EC0326B7A2F10099AFC1 /* TestListNode2.swift in Sources */,
 			);
